@@ -11,10 +11,18 @@ function generateWord() {
 
 let word = generateWord();
 
-function userGuess() {
+function getGuess(event) {
     //onkey save letter to letter
-    let letter = 
-}
+    let code = event.keyCode
+    if (code <= 90 && code >= 65) {
+        let letter = event.key
+        isGuessValid(letter)
+        console.log(letter);
+    } else {
+        alert("Please enter a letter a-z")
+    }
+
+};
 
 function isGuessValid(userGuess) {
     let x = word.indexOf(userGuess)
@@ -40,12 +48,17 @@ function wordComplete() {
 }
 
 //I'm declaring these here but know they move to the top
-let gameBoard;
+let gameBoard = "";
 let guessCounter = 0;
 let guessBox = [];
 
 
 function startGame() {
+    //generate word
+    //never be start game again
+    let y = document.getElementById("game")
+    y.onkeyup = getGuess;
+    console.log("Game started")
 
 }
 function outOfGuesses() {
@@ -57,6 +70,7 @@ function outOfGuesses() {
     } else {
 
     }
+
 }
 function resetGame() {
     // then run generate word
@@ -82,3 +96,4 @@ let userGuess;
 let winBox;
 
 let userScore;
+
