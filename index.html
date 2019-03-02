@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
     <!-- Bootstrap CSS -->
 
@@ -24,13 +24,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img class="float-left" src="assets/images/Belldandy2.jpg" alt="placeholder meow meow" />
+                <img class="float-left" src="assets/images/luther.jpg" alt="comic book Luther" />
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="instructions text-center">
-                            <span>Press any key to start</span>
+                            <span>Press any key to start.<i class="fa fa-american-sign-language-interpreting"
+                                    aria-hidden="true"></i></span>
+                            <div id="small-text">After winning or losing, press any key to play again.</div>
                         </div>
                     </div>
                 </div>
@@ -53,9 +55,16 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div id="wins">
+                        <div class="wins">
                             <span>Number of wins:</span>
                             <span id="win-box">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="message-box">
+                            <span>...</span>
                         </div>
                     </div>
                 </div>
@@ -65,7 +74,7 @@
 
 
 
-
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
 </body>
