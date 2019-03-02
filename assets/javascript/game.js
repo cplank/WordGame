@@ -107,7 +107,7 @@ function isGuessValid(userGuess) {
 //To remedy this, I made this function which takes one parameter, which is represented here by arr (meaning
 //array). It creates a variable, str, which starts as an empty string. The function then loops through
 //the length of arr and adds str to arr at each index. It returns str which will be a string of whatever 
-//array was in the parameter.
+//array was in the parameter. I realize now I could have done this with something called dot notation???
 function turnToString(arr) {
     let str = "";
     for (let i = 0; i < arr.length; i++) {
