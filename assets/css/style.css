@@ -7,20 +7,12 @@
     font-weight: bold;
     font-size: 23px;
     color: gray;
-    border: 1px solid black;
-
 }
 
 .wins {
     font-weight: bold;
     font-size: 23px;
-    color: gray;
-    border: 1px solid black;
-    
-}
-
-.container {
-    border: 1px solid black;
+    color: gray;    
 }
 
 #game-board {
@@ -28,8 +20,7 @@
     color: gray;
     padding: 50px;
     margin: 40px 0px;
-    border: 1px solid black;
-}
+    }
 
 .instructions {
     font-weight: bold;
@@ -43,7 +34,12 @@
     color: gray;
 }
 
-.message-box {
-    border: 1px solid black;
+.messages {
+    font-size: 40px;
+    font-weight: bold;
+    color: pink;
+    margin-top: 40px;
 }
+
+
 
