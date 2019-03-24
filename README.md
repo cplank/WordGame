@@ -1,6 +1,8 @@
 # Umbrella Academy Word Game 
 A hangman type word game. 
 
+https://cplank.github.io/WordGame/
+
 ## Description ##
 This is word game was made using vanilla javaScript. The words used are all associated 
 with the Netflix series <i>The Umbrella Academy</i> and the pictures are from <i>The Umbrella Academy</i>
